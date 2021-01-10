@@ -11,6 +11,7 @@ namespace Tomato
             {
                 var currentGame = new Game();
 
+                currentGame.Play();
                 Console.WriteLine("Do you want to play another round?");
                 var response = Console.ReadKey();
                 if (response.KeyChar == 'n')
